@@ -9,7 +9,7 @@
 body{
     font-family: "Azeret Mono", monospace;
 }
-/* banner section section starts Here */
+/* banner section section style starts Here */
 .banner-container{
     width: 1440px; 
     margin: 0 auto;
@@ -54,11 +54,15 @@ body{
     border: none;
     padding: 21px 24px;
 }
+#footer-link button{
+    cursor:pointer;
+}
 
-/* banner section section ends Here */
+
+/* banner section section style ends Here */
 
 
-/* Why Web Development section start here */
+/* Why Web Development section style start here */
 
 .why-web-development-section{
     max-width: 1140px;
@@ -157,11 +161,11 @@ body{
     margin-bottom: 32px;
 }
 
-/* Why Web Development section ends here */
+/* Why Web Development section  style ends here */
 
 
 
-/* My Inspiration starts here  */
+/* My Inspiration style starts here  */
 
 .my-inspiration{
     width: 1140px;
@@ -207,10 +211,10 @@ body{
     overflow: hidden;
     border-radius: 16px;
 }
-/* My Inspiration Ends here  */
+/* My Inspiration style Ends here  */
 
 
-/* My Current Target starts here */
+/* My Current Target style starts here */
 
 .card-section{
     width: 1140px;
@@ -275,10 +279,10 @@ body{
     font-size: 16px;
     font-weight: 700;
 }
-/* My Current Target Ends here */
+/* My Current Target style Ends here */
 
 
-/* I Need Support Section starts here */
+/* I Need Support Section style starts here */
 .need-support-section{
     width: 1140px;
     height: 313px;
@@ -313,20 +317,23 @@ body{
 
 }
 .need-support-section-title p{
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     font-size: 16px;
     font-weight: 400;
     opacity: 0.7;
     margin-bottom: 24px;
 
 }
-.need-support-section-btn{
+
+.need-support-section form{
+    max-width: 684px;
+    height: 57px;
     display: flex;
     gap: 16px;
 }
-.need-support-section-btn textarea{
+.need-support-section form input{
     width: 548px;
-    height: 57px;
+    flex-grow: 1;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
@@ -334,11 +341,52 @@ body{
     padding: 19px 20px 19px 20px;
 }
 
-.need-support-section-btn button{
+input::placeholder{
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.need-support-section button{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 20px 17px 20px;
+    border: none;
     border-radius: 8px;
     background: rgb(255, 255, 255);
-    padding: 17px 20px 17px 20px;
+
+}
+
+/* I Need Support Section style  Ends here */
+
+/* footer container style start here */
+
+.footer-container{
+    width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 150px 32px 150px;
+}
+.footer-container h4{
+    max-width: 456px;
+    height: 23px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-img{
+    padding-right: 24px;
 }
 
 
-/* I Need Support Section Ends here */
+
+/* footer container style  Ends here */
