@@ -15,7 +15,7 @@ body{
     margin: 0 auto;
     min-height: 652px; 
     margin-top: 157px;
-    background-image: url('/assets/Hero-bg.png');
+    background-image: url('./assets/Hero-bg.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -286,7 +286,7 @@ body{
 .need-support-section{
     width: 1140px;
     height: 313px;
-    background-image: url(/assets/handshake.jpg);
+    background-image: url('./assets/handshake.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -298,7 +298,6 @@ body{
     align-items: center;
     padding: 0px;
     margin: 49px auto;
-
 }
 .need-support-section-title{
     display: flex;
@@ -386,7 +385,6 @@ input::placeholder{
 .footer-img{
     padding-right: 24px;
 }
-
 
 
 /* footer container style  Ends here */
