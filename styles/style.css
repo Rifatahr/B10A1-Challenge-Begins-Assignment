@@ -15,7 +15,7 @@ body{
     margin: 0 auto;
     min-height: 652px; 
     margin-top: 157px;
-    background-image: url('./assets/Hero-bg.png');
+    background-image: url('../assets/Hero-bg.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -53,10 +53,9 @@ body{
     border-radius: 8px;
     border: none;
     padding: 21px 24px;
+    cursor: pointer;
 }
-#footer-link button{
-    cursor:pointer;
-}
+
 
 
 /* banner section section style ends Here */
@@ -286,7 +285,7 @@ body{
 .need-support-section{
     width: 1140px;
     height: 313px;
-    background-image: url('./assets/handshake.jpg');
+    background-image: url('../assets/handshake.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
